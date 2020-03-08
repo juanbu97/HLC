@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="nombre">Nombre(*)</string>
+    <string name="pistaNombre">Introduzca su nombre</string>
+    <string name="apellido">Apellido(*)</string>
+    <string name="pistaApellido">Introduzca su apellido</string>
+    <string name="email">E-mail(*)</string>
+    <string name="pistaEmail">Introduzca su E-mail</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="enlace">elpais.es</string>
+    <string name="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lobortis,
+        tortor quis malesuada elementum, dolor enim iaculis nisl, a interdum sem justo eget mi.
+        Aenean quis scelerisque turpis, ut facilisis mi. www.google.es
+        Cras lobortis finibus nulla eu euismod. Suspendisse non rhoncus ante, at venenatis leo.
+        Integer eleifend elit ac diam hendrerit tempus. Cras eget ligula quam. Cras egestas quam ac elementum tempor.
+        Phasellus ut turpis est. Curabitur porttitor ultricies nisi, non facilisis enim bibendum vitae.</string>
+
+</resources>

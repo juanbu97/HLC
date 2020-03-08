@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:stretchColumns="*">
+
+    <TableRow
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ficha1"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+        <ImageView
+            android:id="@+id/ficha2"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+        <ImageView
+            android:id="@+id/ficha3"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+        <ImageView
+            android:id="@+id/ficha4"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+    </TableRow>
+    <TableRow
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ficha5"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+        <ImageView
+            android:id="@+id/ficha6"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+        <ImageView
+            android:id="@+id/ficha7"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+        <ImageView
+            android:id="@+id/ficha8"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+    </TableRow>
+    <TableRow
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ficha9"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+        <ImageView
+            android:id="@+id/ficha10"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+        <ImageView
+            android:id="@+id/ficha11"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+        <ImageView
+            android:id="@+id/ficha12"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+    </TableRow>
+    <TableRow
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ficha13"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+        <ImageView
+            android:id="@+id/ficha14"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+        <ImageView
+            android:id="@+id/ficha15"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+        <ImageView
+            android:id="@+id/ficha16"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+    </TableRow>
+    <TableRow
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ficha17"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+        <ImageView
+            android:id="@+id/ficha18"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+        <ImageView
+            android:id="@+id/ficha19"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+        <ImageView
+            android:id="@+id/ficha20"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+    </TableRow>
+    <TableRow
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ficha21"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+        <ImageView
+            android:id="@+id/ficha22"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+        <ImageView
+            android:id="@+id/ficha23"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+        <ImageView
+            android:id="@+id/ficha24"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+    </TableRow>
+    <TableRow
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ficha25"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+        <ImageView
+            android:id="@+id/ficha26"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+        <ImageView
+            android:id="@+id/ficha27"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+        <ImageView
+            android:id="@+id/ficha28"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+    </TableRow>
+    <TableRow
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ficha29"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+        <ImageView
+            android:id="@+id/ficha30"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+        <ImageView
+            android:id="@+id/ficha31"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+        <ImageView
+            android:id="@+id/ficha32"
+            android:onClick="destapar"
+            app:srcCompat="@drawable/fondo" />
+
+    </TableRow>
+
+
+</TableLayout>

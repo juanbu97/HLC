@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/fondonegro">
+
+    <Button
+        android:id="@+id/botonMas2Visitante"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:text="+2"
+        android:background="@drawable/boton_redondo"
+        app:layout_constraintEnd_toStartOf="@+id/botonMas3Visitante"
+        app:layout_constraintTop_toBottomOf="@+id/visitante" />
+
+    <Button
+        android:id="@+id/botonMas3Visitante"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginRight="75dp"
+        android:background="@drawable/boton_redondo"
+        android:text="+3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/visitante" />
+
+    <TextView
+        android:id="@+id/marcadorVisitante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginRight="115dp"
+        android:fontFamily="@font/marcador"
+        android:text="00"
+        android:textColor="#FFFF00"
+        android:textSize="100sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botonMas1Visitante"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/boton_redondo"
+        android:text="+1"
+        app:layout_constraintEnd_toStartOf="@+id/botonMas2Visitante"
+        app:layout_constraintTop_toBottomOf="@+id/visitante" />
+
+    <TextView
+        android:id="@+id/visitante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:text="VISITANTE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:fontFamily="@font/press_start_2p"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/marcadorVisitante" />
+
+    <Button
+        android:id="@+id/botonMas2Local"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/boton_redondo"
+        android:text="+2"
+        app:layout_constraintStart_toEndOf="@+id/botonMas1Local"
+        app:layout_constraintTop_toBottomOf="@+id/local" />
+
+    <Button
+        android:id="@+id/botonMas3Local"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/boton_redondo"
+        android:text="+3"
+        app:layout_constraintStart_toEndOf="@+id/botonMas2Local"
+        app:layout_constraintTop_toTopOf="@+id/botonMas2Local" />
+
+    <Button
+        android:id="@+id/botonMas1Local"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/boton_redondo"
+        android:text="+1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/local" />
+
+    <TextView
+        android:id="@+id/local"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="20dp"
+        android:text="LOCAL"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:fontFamily="@font/press_start_2p"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/marcadorLocal" />
+
+    <TextView
+        android:id="@+id/marcadorLocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="82dp"
+        android:text="00"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFF000"
+        android:textSize="100sp"
+        app:fontFamily="@font/marcador"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botonIncrementoLocal"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/flecha_arriba"
+        app:layout_constraintEnd_toStartOf="@+id/marcadorLocal"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botonDecrementoLocal"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/flecha_abajo"
+        app:layout_constraintEnd_toStartOf="@+id/marcadorLocal"
+        app:layout_constraintTop_toBottomOf="@+id/botonIncrementoLocal" />
+
+    <Button
+        android:id="@+id/botonIncrementoVisitante"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/flecha_arriba"
+        app:layout_constraintStart_toEndOf="@+id/marcadorVisitante"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botonDecrementoVisitante"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/flecha_abajo"
+        app:layout_constraintStart_toEndOf="@+id/marcadorVisitante"
+        app:layout_constraintTop_toBottomOf="@+id/botonIncrementoVisitante" />
+
+    <Button
+        android:id="@+id/botonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/boton_redondo"
+        android:text="Reiniciar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

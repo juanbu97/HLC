@@ -1,0 +1,12 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="prefNombreJugador">
+        <item>Persona</item>
+        <item>Máquina</item>
+    </string-array>
+
+    <string-array name="prefJugadorPrimero">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>
