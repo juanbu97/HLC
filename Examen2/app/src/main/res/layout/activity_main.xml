@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TableLayout
+        android:layout_width="0dp"
+        android:layout_height="500dp"
+        android:stretchColumns="*"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/f0c0boton"
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:onClick="pulsar"
+                app:srcCompat="@drawable/boton" />
+
+            <ImageView
+                android:id="@+id/f0c1boton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="pulsar"
+
+                app:srcCompat="@drawable/boton" />
+
+            <ImageView
+                android:id="@+id/f0c2boton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="pulsar"
+
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/f1c0boton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="pulsar"
+
+                app:srcCompat="@drawable/boton" />
+
+            <ImageView
+                android:id="@+id/f1c1boton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="pulsar"
+
+                app:srcCompat="@drawable/boton" />
+
+            <ImageView
+                android:id="@+id/f1c2boton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:onClick="pulsar"
+                app:srcCompat="@drawable/boton" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/f2c0boton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="pulsar"
+
+                app:srcCompat="@drawable/boton" />
+
+            <ImageView
+                android:id="@+id/f2c1boton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="pulsar"
+
+                app:srcCompat="@drawable/boton" />
+
+            <ImageView
+                android:id="@+id/f2c2boton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:onClick="pulsar" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/f3c0boton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="pulsar"
+
+                app:srcCompat="@drawable/boton" />
+
+            <ImageView
+                android:id="@+id/f3c1boton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="pulsar"
+
+                app:srcCompat="@drawable/boton" />
+
+            <ImageView
+                android:id="@+id/f3c2boton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="pulsar"
+
+                app:srcCompat="@drawable/boton" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="194dp"
+        android:layout_height="74dp"
+        android:text="Nº Jugadas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jugadas"
+        android:layout_width="49dp"
+        android:layout_height="64dp"
+        android:text="¿?"
+        app:layout_constraintStart_toEndOf="@+id/text"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/reload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="reiniciar"
+        android:text="Reload"
+        app:layout_constraintStart_toEndOf="@+id/jugadas"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
